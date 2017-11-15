@@ -10,7 +10,7 @@ facets=, xlim=, ylim=, xlab=, ylab=, main=, sub=)
 + scale_fill_gradient(low="white", high="black")
 ```
 
-> Example 1: <color="blue">`qplot(x=col1, y=count, color='col1', geom=c("point", "smooth"), method = "lm", xlab="x-axis", main="Title")`<color="blue">
+> Example 1: <font color="blue">`qplot(x=col1, y=count, color='col1', geom=c("point", "smooth"), method = "lm", xlab="x-axis", main="Title")`</font>
 
 > Example 2: `qplot(color, price / carat, data = diamonds, geom = "jitter", alpha = I(1 / 5), facets = color ~ .) + scale_y_continuous("carat")`
 
