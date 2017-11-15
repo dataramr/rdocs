@@ -1,7 +1,7 @@
-## ggplot2 (Grammer of graphics) notes
+# ggplot2 (Grammer of graphics) notes
 ---
 
-#### Qplot
+### Qplot
 Qplot (quick plot) function is the simplest form of plot in ggplot2 package.
 
 ```
@@ -13,6 +13,6 @@ facets=, xlim=, ylim=, xlab=, ylab=, main=, sub=)
 
 > Example 2: `qplot(color, price / carat, data = diamonds, geom = "jitter", alpha = I(1 / 5), facets = color ~ .) + scale_y_continuous("carat")`
 
-#### ggplot
+### ggplot
 `library(ggplot)`
 
