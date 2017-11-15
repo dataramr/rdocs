@@ -17,7 +17,7 @@ facets=, xlim=, ylim=, xlab=, ylab=, main=, sub=)
 ### ggplot
 `library(ggplot)`
 
-Layering of ggplot components:
+<font color="blue"> Layering of ggplot components: </font>
 * Data
 * Geometric object (geom)
 * Statistical transformation (stat)
