@@ -9,8 +9,10 @@ Syntax: qplot(x, y, data=, color=, shape=, size=, alpha=, geom=, method=, formul
 facets=, xlim=, ylim=, xlab=, ylab=, main=, sub=)
 ```
 
-> Example 1: `qplot(x=col1, y=count, color='red', geom=c("point", "smooth"), method = "lm")`
+> Example 1: `qplot(x=col1, y=count, color='col1', geom=c("point", "smooth"), method = "lm", xlab="x-axis", main="Title")`
 
-> Example 2: `qplot(color, price / carat, data = diamonds, geom = "jitter", alpha = I(1 / 5)) + scale_y_continuous("carat")`
+> Example 2: `qplot(color, price / carat, data = diamonds, geom = "jitter", alpha = I(1 / 5), facets = color ~ .) + scale_y_continuous("carat")`
 
+#### ggplot
+`library(ggplot)`
 
